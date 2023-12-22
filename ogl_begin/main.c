@@ -611,11 +611,6 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	case WM_LBUTTONDOWN:
 	{
 		Player_Shoot();
-		if (count_death == enemyCnt)
-		{
-			Sleep(2000);
-			PlaySound("42345235.wav", NULL, SND_ASYNC);
-		}
 
 	}
 		break;
